@@ -27,18 +27,19 @@ O git utiliza o conceito de branch, que é uma forma de separar o **ramo** em qu
 Seguiremos um padrão de nomenclatura das branchs: **nome-da-seção/nome-da-pessoa**, utilizando traços/hífens no lugar dos espaços entre o nome da seção e da pessoa e barra separando o nome da seção e o nome da pessoa. 
 Exemplo: importancia-da-algebra/joao-fernando
 
-Sempre que for realizar alguma alteração no projeto, utilize o comando **git branch** para checar em qual branch você está no momento. Se for a que você está editando. Prosseguir, caso contrário, utilize o comando **git checkout -b nome-da-branch
+Sempre que for realizar alguma alteração no projeto, utilize o comando **git branch** para checar em qual branch você está no momento. Se for a que você está editando. Prosseguir, caso contrário, utilize o comando **git checkout -b nome-da-branch**
 
 Após isso, você pode fazer as devidas edições nos arquivos normalmente.
 
-Ao finalizar, para enviar as alterações para o github, você deve utilizar dois comandos:
+Ao finalizar, para enviar as alterações para o github, você deve utilizar três comandos (o primeiro vpocê pode escolher qual dos dois formatos você prefere, o segundo é mais comodo pois não precisa digitar o nome do arquivo).
 
 ```bash
+git add nome_do_arquivo OU git add .
 git commit -m "inserir de forma resumida o que foi alterado"
 git push -u origin nome-da-branch
 ```
 
-Lembre-se, no primeiro comando, o comando git commit precisa seguir aquela regra, deve trocar apenas o conteúdo da mensagem que está dentro das aspas, mas NÃO devemos remover as aspas. Se preferir, pode enviar sem nenhuma mensagem, usando apenas o comando git commit -m ""
+Lembre-se, no primeiro comando, o comando git commit precisa seguir aquela regra, deve trocar apenas o conteúdo da mensagem que está dentro das aspas, mas NÃO devemos remover as aspas. Se preferir, pode enviar sem nenhuma mensagem, usando apenas o comando **git commit -m ""**
 
 ### Puxar atualizações do servidor
 
