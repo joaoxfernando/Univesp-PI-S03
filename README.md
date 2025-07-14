@@ -80,6 +80,20 @@ Caso queira fazer pelo aplicativo, sugiro que sigam as etapas a seguir [https://
 
 ### Puxar atualizações do servidor
 
+Após você ter enviado as alterações para o servidor e feita a solicitação de **Pull Request**, quando ela for aprovada, caso queira atualizar a sua versão com a do repositório oficial, digite os comandos abaixo no terminal dentro da pasta do teu projeto:
+
+```bash
+# se der erro com a linha abaixo, tente o comando seguinte
+git remote add upstream git@github.com:joaoxfernando/Univesp-PI-S03.git
+# ou então esse
+git remote add upstream https://github.com/joaoxfernando/Univesp-PI-S03.git
+
+git fetch upstream
+git merge upstream/main
+
+# agora você pode enviar as alterações que acabou de puxar do repositório oficial para o seu repositório
+git push origin main # ou então pode usar o próprio Github Desktop para enviar as alterações.
+```
 
 
 ## Principais comandos git
