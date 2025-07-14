@@ -3,6 +3,7 @@
 1. Instalar o git (Verificar tópico específico abaixo)
 2. Navegar até a pasta onde deseja salvar os arquivos do trabalho, clicar com o botão direito do mpouse e selecionar a opção **Abrir janela de comando aqui**
 3. Clonar o repositório utilizando o comando abaixo dentro do prompt que abriu
+
 ```bash
 git clone https://github.com/joaoxfernando/Univesp-PI-S03.git
 ```
@@ -122,4 +123,4 @@ Se quiser reverter o último commit no servidor, utilize o comando **git revert 
 
 Há diversos outros comandos para utilização do git, mas, creio que para a elaboração do projeto, esses são mais do que suficientes.
 
-Qualquer dúvida quanto ao uso do git e/ou LaTeX, podem me acionar no e-mail 24201690@aluno.univesp.
+Qualquer dúvida quanto ao uso do git e/ou LaTeX, podem me acionar no e-mail 24201690@aluno.univesp.br
