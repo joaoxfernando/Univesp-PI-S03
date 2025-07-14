@@ -9,6 +9,8 @@ git clone https://github.com/joaoxfernando/Univesp-PI-S03.git
 
 Essas etapas só precisam ser feitas uma única vez, e essa última etapa irá baixar os arquivos atualizados para a sua máquina, quando você fizer alterações e quiser sincronizar ou deseja sincronizar com a versão mais recente do servidor, utilize os comandos listados no tópico específico
 
+Se quiser, você pode também acessar a documentação abaixo diretamente na [Wiki](https://github.com/joaoxfernando/Univesp-PI-S03/wiki) onde terá o mesmo conteúdo separado em páginas para facilitar a consulta.
+
 ## Instalação e configuração do Git/GitHub Cliente
 
 Se você já tiver familiaridade com o git, não precisa baixar o github client, apenas instale o git, caso contrário, 
@@ -120,4 +122,4 @@ Se quiser reverter o último commit no servidor, utilize o comando **git revert 
 
 Há diversos outros comandos para utilização do git, mas, creio que para a elaboração do projeto, esses são mais do que suficientes.
 
-Qualquer dúvida quanto ao uso do git e/ou LaTeX, podem me acionar no e-mail 24201690@aluno.univesp.br
+Qualquer dúvida quanto ao uso do git e/ou LaTeX, podem me acionar no e-mail 24201690@aluno.univesp.
