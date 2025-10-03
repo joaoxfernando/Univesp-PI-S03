@@ -12,6 +12,8 @@
 \usepackage{microtype} 			% para melhorias de justificação
 \usepackage{parselines} 
 \usepackage{framed}
+
+
 % ---
 
 % ---
@@ -24,7 +26,8 @@
 % Pacotes de citações
 % ---
 %\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}	% Citações padrão ABNT
+
 
 % ---
 % CONFIGURAÇÕES DE PACOTES
@@ -59,12 +62,14 @@
 
 
 
-\titulo{Teste}
+\titulo{MULTICULTURALISMO: Jogo do acolhimento - Roda de conversa para um ambiente sem violência}
 \autor{Aléxia das Neves Nunes, 24217970 \\ Eliane Santos dos Reis, 24221414 \\ Elisangela Leite Rocha, 24208193 \\ João Fernando de Mello Gomes, 24201690 \\ Michely Santiago Bento, 24215570 \\ Verônica Chirichella Felicioni Napoleão, 24213986 \\ }
 
 \data{2025}
 \local{São Paulo - SP}
-%\orientador{$orientador$}
+\orientador{Luane Nigro Sato}
+\def\orientadora{Luane Nigro Sato}
+
 %\coorientador{$coorientador$}
 \instituicao{UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO\\}
 
@@ -132,7 +137,7 @@
 		
 		\mainmatter
 		\center
-		\ABNTEXchapterfont\Large \imprimirinstituicao
+		\ABNTEXchapterfont\Large \textbf{\imprimirinstituicao}
 		\vspace*{2cm}
 		{\setlength{\parskip}{0.01cm}\ABNTEXchapterfont\large\imprimirautor}
 		\vfill
@@ -140,9 +145,11 @@
 			\ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo
 		\end{center}
 		\begin{center}
-			\begin{framed}
-				\imprimirtipotrabalho
-			\end{framed}
+% INICIO CAIXA PRO LINK DO VÍDEO
+%			\begin{framed} 
+%				\imprimirtipotrabalho
+%			\end{framed}
+% FIM CAIXA PRO LINK DO VÍDEO
 		\end{center}
 		\vfill
 		\large\imprimirlocal\\
@@ -200,7 +207,9 @@
 % ---
 
 % O tamanho do parágrafo é dado por:
-\setlength{\parindent}{1.3cm}
+%\setlength{\parindent}{1.3cm}
+\setlength{\parindent}{0pt}
+
 
 % Controle do espaçamento entre um parágrafo e outro:
 \setlength{\parskip}{0.2cm}  % tente também \onelineskip
